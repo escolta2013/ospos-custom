@@ -1,0 +1,1 @@
+ALTER TABLE `ospos_sales_items_taxes` ADD `tasa` DECIMAL(15,2) NOT NULL DEFAULT '0' AFTER `percent`; 

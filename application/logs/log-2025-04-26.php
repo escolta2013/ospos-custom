@@ -1,0 +1,4 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-04-26 07:16:37 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`dxhscqvn_ospos`.`ospos_inventory_records`, CONSTRAINT `fk_item` FOREIGN KEY (`item_id`) REFERENCES `ospos_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE) - Invalid query: INSERT INTO `ospos_inventory_records` (`inventory_date`) VALUES ('2025-04-26 07:16:37')
+ERROR - 2025-04-26 12:46:11 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`dxhscqvn_ospos`.`ospos_inventory_records`, CONSTRAINT `fk_item` FOREIGN KEY (`item_id`) REFERENCES `ospos_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE) - Invalid query: INSERT INTO `ospos_inventory_records` (`inventory_date`) VALUES ('2025-04-26 12:46:11')

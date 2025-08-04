@@ -1,0 +1,1 @@
+ALTER TABLE `ospos_sales` ADD `location` INT NULL DEFAULT NULL AFTER `sale_id`;
